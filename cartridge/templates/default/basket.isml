@@ -1,6 +1,7 @@
 <!--- TEMPLATENAME: basket.isml --->
-<p>observe ${pdict.basket}</p>
+
 <isdecorate template="common/layout/page"> 
+<p>observe ${pdict.basket}</p>
 <isif condition="${pdict.basket===null}">
 	<p>basket doesn't contain any items</p><!-- if basket doesn't exit -->
 <iselse>
