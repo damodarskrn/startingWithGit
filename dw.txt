@@ -1,0 +1,6 @@
+{
+    "hostname": "zzqi-005.sandbox.us01.dx.commercecloud.salesforce.com",
+    "username": "damodar.k@etggs.com",
+    "password": "Hello@6265",
+    "code-version": "NewVersion655"
+}
