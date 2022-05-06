@@ -1,0 +1,16 @@
+<!--- TEMPLATENAME: basket.isml --->
+<p>observe ${pdict.basket}</p>
+<isdecorate template="common/layout/page"> 
+<isif condition="${pdict.basket===null}">
+	<p>basket doesn't contain any items</p><!-- if basket doesn't exit -->
+<iselse>
+<isloop items="${pdict.basket.getProductLineItems()}" var="lineItem" status="loopstate">
+<!--     ${pdict.basket.getProductLineItems()}<br/>   -->
+    ${lineItem.product.name}<br/>
+    <isinclude template="cart/productCard/cartProductCardAvailability"/>
+    Count ${loopstate.count}  Index ${loopstate.index} ${productLineItem.product.name}<br/>
+</isloop>
+</isif>
+</isdecorate>
+
+<!-- getProductLineItems() is used by allProductLineItems -->

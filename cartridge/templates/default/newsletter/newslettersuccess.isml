@@ -1,0 +1,6 @@
+<!--- TEMPLATENAME: newslettersuccess.isml --->
+
+<isdecorate template="common/layout/page">
+<h3>${pdict.newsletterForm.fname.value} ${pdict.newsletterForm.lname.value} Thank you for registration of newsletter subscription</h3>
+Back to <a href="${pdict.continueUrl}">Newsletter Subscription</a>
+</isdecorate>

@@ -1,0 +1,7 @@
+<!--- TEMPLATENAME: newslettererror.isml --->
+<isdecorate template="common/layout/page">
+	<h3>
+		There was an error submitting this form :${pdict.errorMsg}
+	</h3>
+	Back to <a href="${pdict.continueUrl}">Newsletter Subscriptions</a>
+</isdecorate>

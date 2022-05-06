@@ -1,0 +1,2 @@
+<!--- TEMPLATENAME: helloWorld.isml --->
+<p>Hello from ${pdict.param1} site</p>
